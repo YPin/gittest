@@ -1,0 +1,38 @@
+vbell on
+
+# detach on hangup
+autodetach on
+
+# don't display the copyright page
+startup_message off
+
+# emulate .logout message
+pow_detach_msg "Screen session of \$LOGNAME \$:cr:\$:nl:ended."
+
+hardstatus lastline '%{.gk}%?%-LW  %?%{+b ..y}%n%f %t%{-b ..k}%?%+LW%?%=%H %M %d %C'
+attrcolor u "-u Y"
+attrcolor i "-u G"
+attrcolor b "+b"
+
+caption always "%{.KW} %-w%{.mW}[%n] %t%{.KW}%+w"
+hardstatus alwayslastline "%{R}[ %{w}%1` %{R}]%=%{M}%e  %{G}%H %{Y} %c %{R} %d/%m/%Y %{K} Load: %l %{w}"
+defencoding utf8
+
+# Makes "C-x 1" login to remote Installation server, "C-x 1" login to remote AAL server, etc.
+# bind -c remote 1 screen -t Installation ssh root@x.x.x.x (這裡的 ip 請自行替換。)
+# bind -c remote 2 screen -t AAL ssh root@x.x.x.x
+# bind -c remote 3 screen -t Portal ssh root@x.x.x.x
+# bind -c remote 4 screen -t Master0 ssh root@x.x.x.x
+# bind -c remote 5 screen -t Master1 ssh root@x.x.x.x
+# bind -c remote 6 screen -t Helper0 ssh root@x.x.x.x
+# bind -c remote 7 screen -t Helper1 ssh root@x.x.x.x
+# bindkey "^X" command -c remote
+#
+# # Left Right meta key mods
+# #ALT-,. and ALT-<>
+bindkey "^[<" eval number !echo $WINDOW-1|bc
+bindkey "^[>" eval number !echo $WINDOW+1|bc
+bindkey "^[," prev
+bindkey "^[." next
+#
+#hardstatus alwayslastline "%{=b}%{bw} %{ck} %-Lw%{gw}%n%f* %t%? (%u)%? %{-}%+Lw %{bw}"
