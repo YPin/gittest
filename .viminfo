@@ -17,9 +17,13 @@
 $search_product_category_id
 
 # Command Line History (newest to oldest):
+:q
+:Q
+:wq
+:q!
+:Q!
 :wq!
 :Wq!
-:q
 :qa
 :w!
 :67,93d
@@ -29,14 +33,10 @@ $search_product_category_id
 :7,13y
 :28,47d
 :4,10
-:q!
-:Q
-:wq
 :qa!
 :250g
 :e!
 :175,189s/;\s*$/;/gi
-:175,189>>
 
 # Search String History (newest to oldest):
 ?/include
@@ -142,20 +142,21 @@ $search_product_category_id
 	購物金的增減記錄
 
 # File marks:
-'0  3  8  ~/.gitignore
-'1  1  0  ~/.gitigonre
-'2  1  11  ~/.gitignore
-'3  71  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
-'4  3  0  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
-'5  256  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
-'6  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
-'7  16  33  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
-'8  35  7  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
-'9  430  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+'0  1  10  ~/.gitignore
+'1  1  8  /var/www/html/jackie_chao.alley.52886.tw/grep_pay_fail.sh
+'2  3  8  ~/.gitignore
+'3  1  0  ~/.gitigonre
+'4  71  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+'5  3  0  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
+'6  256  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+'7  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+'8  16  33  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+'9  35  7  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
 
 # Jumplist (newest first):
+-'  1  10  ~/.gitignore
+-'  1  8  /var/www/html/jackie_chao.alley.52886.tw/grep_pay_fail.sh
 -'  3  8  ~/.gitignore
--'  1  0  ~/.gitignore
 -'  1  0  ~/.gitigonre
 -'  71  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
 -'  114  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
@@ -251,17 +252,21 @@ $search_product_category_id
 -'  330  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
 -'  1  0  /var/www/html/jackie_chao.alley.52886.tw/manage/application/models/Table/UserMoneyBook.php
 -'  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
--'  16  33  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
--'  57  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	3	8
+	"	1	10
 	^	3	9
 	.	3	8
 	+	1	12
 	+	3	8
+
+> /var/www/html/jackie_chao.alley.52886.tw/grep_pay_fail.sh
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
 
 > ~/.gitigonre
 	"	1	0

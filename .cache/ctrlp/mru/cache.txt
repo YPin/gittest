@@ -1,4 +1,6 @@
 /home/jackie_chao/.gitignore
+/var/www/html/jackie_chao.alley.52886.tw/manage/application/views/scripts/order/list.php
+/var/www/html/jackie_chao.alley.52886.tw/grep_pay_fail.sh
 /var/www/html/jackie_chao.alley.52886.tw/include/helper/zendTableLoader.php
 /var/www/html/jackie_chao.alley.52886.tw/api/201411/get_product.php
 /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
